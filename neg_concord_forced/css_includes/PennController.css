@@ -1,0 +1,62 @@
+.PennController {
+    width: 40em !important; /* controls the witdth of the content area */
+    margin-left: calc(50vw - 20em); /* aligns the content area's left edge with the vertical center of the page */
+}
+
+.Text-container{
+    font-size:  2em;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.Tooltip {
+    min-width: 50vw;
+    width: max-content;
+    max-width: 80vw;
+    border-radius: 10px;
+    padding: 10px !important;
+    box-shadow: black 0px 0px 5px 0px;
+}
+.Tooltip a {
+    font-style: italic;
+}
+
+.Tooltip-container p {
+    text-align: justify;
+    padding: 5px;
+}
+
+.score-container {
+    transform: scale(1.8);
+    font-size: large;
+}
+
+.PersonKnowsOther-container {
+    transform: scale(1.2);
+    font-size: medium;
+}
+
+.instruction-keys-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.instruction-thanks-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.instruction-contact-us-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.context-item {
+    padding: 0% 5%;
+    /*font-size: x-large;*/
+}
+
+sup {
+    color: #ff0000;
+    font-size: large;
+}
